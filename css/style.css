@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+.flex {
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+}
+html,
+body,
+.container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+header {
+  position: relative;
+  background: #900;
+  padding: 2rem 0;
+}
+header h2 {
+  text-align: center;
+  color: #fff;
+}
+header .search {
+  position: absolute;
+  top: 2rem;
+  right: 1.5rem;
+}
+header .search img {
+  width: 2rem;
+  height: 2rem;
+}
+header .return {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-size: 2rem;
+  color: #fff;
+  display: none;
+}
+header .return img {
+  width: 3rem;
+  height: 3rem;
+}
+header .fav {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  color: #fff;
+  display: none;
+}
+header .fav img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.main {
+  overflow: hidden;
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  width: 100%;
+  height: 100%;
+  background: pink;
+  position: relative;
+}
+.main > div {
+  background: pink;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+}
+.main > div:nth-child(1) {
+  transform: translateX(0);
+}
+.main #list {
+  background: pink;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: translateX(100%);
+}
+.main #list .list-text {
+  clear: both;
+  padding: 1rem 2rem;
+}
+.main #list .list-text img {
+  float: left;
+  padding-right: 2rem;
+  width: 9.2rem;
+  height: 6.8rem;
+}
+.main #list .list-text h2 {
+  width: 60%;
+  padding-top: 2rem;
+  float: left;
+  font-family: "楷体";
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 2rem #000;
+}
+.main #favorite,
+.main .history,
+.main .config h1 {
+  font-family: "华文楷体";
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 50%;
+}
+.main .home {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.main .home a {
+  position: relative;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 1rem 0;
+}
+.main .home a img {
+  width: 310px;
+  height: auto;
+  box-shadow: 0 0 2rem pink;
+}
+#items {
+  padding: 0 2rem;
+  font-size: 2rem;
+  font-family: "华文楷体";
+  color: #000;
+}
+.more {
+  width: 100%;
+  height: 100%;
+  transition: all 1s;
+}
+footer {
+  background: #222;
+  width: 100%;
+  padding: 1rem 0;
+  position: relative;
+}
+footer nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -o-box;
+  display: box;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  -o-box-orient: horizontal;
+  overflow: hidden;
+}
+footer nav a {
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  -webkit-box-flex: 1;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+footer .mask {
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #000;
+  box-shadow: 0 3px 8px #fff;
+}

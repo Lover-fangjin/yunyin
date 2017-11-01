@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- 外面的容器 -->
+        <div class="container">
+            <header>
+                <a href="#home" class="return" id="return1"><img src="img/fan.png" alt="" /></a>
+                <h2>孕育宝典</h2>
+                <a href="#"  class='search' id="search"><img src="img/sss.png" alt="" /></a>
+                <a href="" id="fav" class='fav'><img src="img/xsc.png" alt="" /></a>
+            </header>
+            <div class="main">
+
+                <div class="home" id="home">
+                   <div id='iscroll' class='iscroll'>
+                        <a href="#list" title="孕前准备" id="yunqian">
+                            <img src="img/pic1.png">
+                        </a>
+                        <a href="#list" title="孕中知识" id="yunzhong">
+                            <img src="img/pic2.png">
+                        </a>
+                        <a href="#list" title="产前知识" id="chanqian">
+                            <img src="img/pic3.png">
+                        </a>
+                        <a href="#list" title="分娩产后" id="chanhou">
+                            <img src="img/pic4.png">
+                        </a>
+                        <a href="#list" title="幼儿成长指标" id="chengzhang">
+                            <img src="img/pic5.png">
+                        </a>
+                        <a href="#list" title="幼儿常见病防治" id="fangzhi">
+                            <img src="img/pic6.png">
+                        </a>                    
+                    </div>  
+                </div>
+                
+                <!-- 列表 -->
+                <div id='list'>
+                    <div id='list_iscroll'>
+                        
+                    </div>
+                </div>
+                
+                <!-- 更多内容 -->
+                <div id="item">
+                     <div id='item-iscroll'>
+                        <div id="items">
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="favorite" class="favorite">
+                    <h1>收藏：主人什么都没有留下</h1>
+                </div>
+
+                <div id="history" class="history">
+                    <h1>历史记录：主人什么都没有留下</h1>
+                </div>
+
+                <div id="config" class="config">
+                    <h1>设置：暂时没有内容</h1>
+                </div>
+
+
+            </div>
+            <footer>
+                <nav>
+                    <a href="#home" >
+                        <b>首页</b><br>home
+                    </a>
+                    <a href="#favorite">
+                        <b>收藏</b><br>favorite     
+                    </a>
+                    <a href="#history">
+                        <b>历史记录</b><br>history
+                    </a>
+                    <a href="#config">
+                        <b>设置</b><br>config
+                    </a>
+                </nav>
+                <p class='mask' id="mask">ddddd</p>
+            </footer>
+        </div>
+        
+    <script src='js/zepto.js'></script>  
+    <script src='js/ajax.js'></script>    
+    <script src='js/event.js'></script> 
+    <script src='js/fx.js'></script> 
+    <script src='js/touch.js'></script>
+    <script src='js/iscroll.js'></script>
+    <script src='js/index.js'></script>         
+    
+<script>
+
+    
+    // var s=document.getElementById('iscroll');
+    // var yuan=document.getElementById('yunqian')
+    // console.log(s)
+    // yuan.onclick=function(){
+    //     home.style.transform='translateX(-1000px)';
+    //     home.style.transition='all 1s'
+    //     return1.style.display='block';
+    //     search.style.display='none';
+    // }
+    // return1.onclick=function(){
+    //     s.style.transform='translateX(200px)';
+    //     home.style.transition='all 1s'
+    //     search.style.display='block';
+    // }
+
+</script>
+    </body>
+</html>
